@@ -1,9 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetUpMeUai", "MeetUpMeUai.csproj", "{42352E83-1341-4D00-8836-28A04FE70BB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{ADEAE8EC-A43B-4529-B61E-1D39CEFC01DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetUpMeUai.Persistence", "..\MeetUpMeUai.Persistence\MeetUpMeUai.Persistence.csproj", "{E8C68355-5E3E-4B68-9B22-1FBF7B8D9672}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeetUpMeUai.Model", "MeetUpMeUai.Model\MeetUpMeUai.Model.csproj", "{7B9C5188-8539-4FF9-95AF-CA79DDB1B18A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +21,20 @@ Global
 		{42352E83-1341-4D00-8836-28A04FE70BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42352E83-1341-4D00-8836-28A04FE70BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42352E83-1341-4D00-8836-28A04FE70BB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8C68355-5E3E-4B68-9B22-1FBF7B8D9672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8C68355-5E3E-4B68-9B22-1FBF7B8D9672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8C68355-5E3E-4B68-9B22-1FBF7B8D9672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8C68355-5E3E-4B68-9B22-1FBF7B8D9672}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B9C5188-8539-4FF9-95AF-CA79DDB1B18A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B9C5188-8539-4FF9-95AF-CA79DDB1B18A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B9C5188-8539-4FF9-95AF-CA79DDB1B18A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B9C5188-8539-4FF9-95AF-CA79DDB1B18A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E8C68355-5E3E-4B68-9B22-1FBF7B8D9672} = {ADEAE8EC-A43B-4529-B61E-1D39CEFC01DD}
+		{7B9C5188-8539-4FF9-95AF-CA79DDB1B18A} = {ADEAE8EC-A43B-4529-B61E-1D39CEFC01DD}
 	EndGlobalSection
 EndGlobal
